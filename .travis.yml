@@ -1,3 +1,8 @@
+language: node_js
+  -11.6.0
+cache: npm
+install:
+  - npm -v
 deploy:
   provider: pages
   skip_cleanup: true
